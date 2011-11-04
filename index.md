@@ -16,6 +16,12 @@
 
 !SLIDE
 
+## Follow Along
+
+# <a href='http://mbleigh.com/rails-is-the-new-rails' style='font-weight: 300; font-size: 80%;'>mbleigh.com/rails-is-the-new-rails</a>
+
+!SLIDE
+
 # Not a Cool Talk
 
 !SLIDE
