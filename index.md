@@ -438,6 +438,29 @@ gem 'mycompany-assets', git: 'git://github.com/mycompany/mycompany-assets.git'
   end
 ```
 
+!SLIDE tip
+
+# Fun With Times
+
+!SLIDE
+
+## Enumerators are Useful, ActiveSupport is Fun!
+
+```ruby
+5.times.to_a # => [0,1,2,3,4]
+
+WORDS = %w(a bunch of random words)
+def random_word
+  WORDS.sort_by{ rand }.first
+end
+
+def random_sentence(length = (5 + rand(8)))
+  words = length.times.map{ random_word }
+  words.first.capitalize!
+  words.join(' ') + '.'
+end
+```
+
 !SLIDE
 
 # What's Your Optimization?

@@ -333,6 +333,18 @@
         </div>
       </section>
       <section class='slide'>
+        <div class='tip'>
+          <h1>Fun With Times</h1>
+        </div>
+      </section>
+      <section class='slide'>
+        <div>
+          <h2>Enumerators are Useful, ActiveSupport is Fun!</h2>
+          
+          <p><textarea class='code' display='none' mode='ruby'>5.times.to_a # => [0,1,2,3,4]&#x000A;&#x000A;WORDS = %w(a bunch of random words)&#x000A;def random_word&#x000A;  WORDS.sort_by{ rand }.first&#x000A;end&#x000A;&#x000A;def random_sentence(length = (5 + rand(8)))&#x000A;  words = length.times.map{ random_word }&#x000A;  words.first.capitalize!&#x000A;  words.join(' ') + '.'&#x000A;end</textarea></p>
+        </div>
+      </section>
+      <section class='slide'>
         <div>
           <h1>What's Your Optimization?</h1>
         </div>
