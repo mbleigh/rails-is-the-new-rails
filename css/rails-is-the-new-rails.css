@@ -19,6 +19,10 @@
   font-size: 120%;
 }
 
+.deck-container h1 {
+  font-weight: 300;
+}
+
 .deck-container .theme h1 {
   background: #c00;
   color: white;
@@ -28,10 +32,9 @@
 }
 
 .deck-container .tip h1 {
-  font-size: 3em;
+  font-size: 3.5em;
   background: black;
   color: white;
   padding: 40px;
   margin: 0 80px;
-  font-weight: normal;
 }

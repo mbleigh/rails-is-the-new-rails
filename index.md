@@ -30,6 +30,10 @@
 
 !SLIDE
 
+# Rails Safari?
+
+!SLIDE
+
 # 3 Minute Philosophy
 
 !SLIDE
