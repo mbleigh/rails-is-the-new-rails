@@ -1,0 +1,37 @@
+/* Custom CSS for your KeyDown presentation here */
+
+/* Uncomment to turn off deck.js navigation */
+/*.deck-prev-link,*/
+/*.deck-next-link {*/
+    /*display: none;*/
+/*}*/
+
+/* Uncomment to turn off deck.js status */
+/*.deck-status {*/
+    /*display: none;*/
+/*}*/
+
+.deck-container {
+  font-family: "Open Sans", sans-serif !important;
+}
+
+.deck-container div.CodeMirror {
+  font-size: 120%;
+}
+
+.deck-container .theme h1 {
+  background: #c00;
+  color: white;
+  padding: 40px;
+  margin: 0 80px;
+  font-weight: 300;
+}
+
+.deck-container .tip h1 {
+  font-size: 3em;
+  background: black;
+  color: white;
+  padding: 40px;
+  margin: 0 80px;
+  font-weight: normal;
+}
